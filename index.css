@@ -1,0 +1,117 @@
+body{
+	font-family: 'Open Sans', sans-serif;
+}
+
+#header{
+	display: flex;
+	background-image: url("img/grass.jpg");
+	background-size: contain;
+}
+#logo{
+	height: 200px;
+}
+h1{
+	font-family: 'Libre Baskerville', serif;
+	font-size: 5em;
+	margin: 0 auto;
+	padding-top: 50px;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    display: flex;
+    justify-content: space-around;
+}
+
+li {
+    
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    width: 100%;
+}
+
+li a:hover {
+    background-color: #111;
+}
+#wrap{
+	width: 100%;
+	display: inline-flex;
+	justify-content: space-around;
+	margin-top: 30px;
+}
+.box{
+	text-align: center;
+	background-color: #333333;
+	color: white;
+	padding: 50px;
+	margin:2px;
+	box-sizing: border-box;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	box-shadow: 10px 10px 5px grey;
+}
+h3{
+	color: #3B5998;
+	font-size: 4em;
+}
+#thumb{
+	height: 150px;
+}
+#gallery{
+	height: 865px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+#galleryjs{
+	height: 665px;
+	flex-shrink: 2;
+}
+#w2{
+	display: flex;
+	justify-content: center;
+}
+#w3{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.news{
+	width: 75%;
+	border-radius: 25px;
+    border: 5px solid black;
+    padding: 20px;
+    background-color: #333333;
+    text-align: center;
+    color: white;
+    margin: 100px 0px;
+}
+.snow{
+	height: 500px;
+}
+#con{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+#map{
+	height: 400px;
+	width: 50%;
+}
+footer{
+	height: 200px;
+	display: flex;
+	justify-content: center;
+	align-items: flex-end;
+	background-image: url("img/grass.jpg");
+	background-size: contain;
+}
